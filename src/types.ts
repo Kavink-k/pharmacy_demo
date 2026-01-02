@@ -35,3 +35,17 @@ export interface ResearchHighlight {
   description: string;
   category: string;
 }
+
+export interface SubItem {
+  label: string;
+  href: string;
+  vision?: string; // Optional for safety
+  mission?: string;
+  content?: string;
+}
+
+export interface NavigationItem {
+  label: string;
+  href: string;
+  dropdown?: SubItem[]; 
+}

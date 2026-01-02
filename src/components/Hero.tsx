@@ -44,10 +44,10 @@ export const Hero = () => {
             </div>
 
             <h1 className="text-5xl lg:text-7xl font-bold text-[#1A1A1A] leading-tight">
-              Pioneering <span className="text-[#184D47]">Future</span>
+              Vihan <span className="text-[#184D47]">College of</span>
               <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#184D47] to-[#2A6B62]">
-                Pharmacists
+                Pharmacy
               </span>
             </h1>
 

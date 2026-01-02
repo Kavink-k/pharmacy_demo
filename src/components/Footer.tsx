@@ -188,6 +188,26 @@ export const Footer = () => {
           </div>
         </div>
       </div>
+      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+  <div>
+    {/* Institutional Identity */}
+    <h3 className="text-white font-bold text-lg">Vihan College</h3>
+    <p className="text-[#D6EFC7] text-sm">Pioneering excellence for over 25 years.</p>
+  </div>
+  <div>
+    <h4 className="text-white font-bold mb-6">Quick Links</h4>
+    {/* Maps to navigationItems (Academics, NAAC, Committees) */}
+  </div>
+  <div>
+    <h4 className="text-white font-bold mb-6">Contact</h4>
+    <ul className="space-y-4">
+      <li className="flex items-start space-x-3">
+        <MapPin className="text-[#FAD586] flex-shrink-0 mt-1" size={16} />
+        <span className="text-[#D6EFC7] text-sm">123 Education Road, City</span>
+      </li>
+    </ul>
+  </div>
+</div>
     </footer>
   );
 };
